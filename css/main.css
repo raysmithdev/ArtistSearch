@@ -1,0 +1,53 @@
+body{
+	text-align: center;
+	background-color: white;
+/*	padding:10em;
+*/}
+
+.title h1{
+	size: 60px;
+	text-align: center;
+	font-family: 'Changa One', cursive;
+	margin-top: 7%;
+
+}
+
+.fa-headphones{
+	color:#84bd00;
+}
+
+.instructions{
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+}
+
+.picture{
+	width: 200px;
+	display: block;
+	margin-left: 43%;
+}
+
+li{
+	list-style: none;
+	}
+
+.name{
+	font-size:25px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.link{
+	font-family: 'Comfortaa', cursive;
+	font-size:20px;
+}
+/*.hidden{
+	display: none;
+}*/
+
+
+
+
+
+
+
+
