@@ -1,3 +1,53 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+.item_wrap{
+	outline: 1px solid red;
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+	text-align: center;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+.item_wrap{
+	outline: 1px solid red;
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+	text-align: center;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+.item_wrap{
+	outline: 1px solid red;
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	text-align: center;
+}
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+.item_wrap{
+	outline: 1px solid red;
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	text-align: center;
+}
+}
+
 body{
 	text-align: center;
 	background-color: white;
@@ -21,25 +71,30 @@ body{
 	font-family: 'Comfortaa', cursive;
 }
 
-.picture{
-	width: 200px;
-	display: block;
-	margin-left: 43%;
-}
-
 li{
 	list-style: none;
 	}
 
 .name{
-	font-size:25px;
+	font-size:20px;
 	font-family: 'Comfortaa', cursive;
+}
+
+.picture{
+	height: 150px;
+	width: 150px;
 }
 
 .link{
 	font-family: 'Comfortaa', cursive;
-	font-size:20px;
+	font-size:16px;
 }
+
+.result{
+}
+
+
+
 /*.hidden{
 	display: none;
 }*/
