@@ -1,4 +1,4 @@
-/* Smartphones (portrait and landscape) ----------- */
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
@@ -24,13 +24,13 @@ and (max-device-width : 1024px) {
 }
 }
 
-/* Desktops and laptops ----------- */
+/* Desktops and laptops -----------  */
 @media only screen
 and (min-width : 1224px) {
 .item_wrap{
 	outline: 1px solid red;
 	display: inline-block;
-	width: 33%;
+	width: 33.33%;
 	vertical-align: top;
 	text-align: center;
 }
@@ -42,7 +42,7 @@ and (min-width : 1824px) {
 .item_wrap{
 	outline: 1px solid red;
 	display: inline-block;
-	width: 33%;
+	width: 33.33%;
 	vertical-align: top;
 	text-align: center;
 }
@@ -54,12 +54,8 @@ body{
 /*	padding:10em;
 */}
 
-.title h1{
-	size: 60px;
-	text-align: center;
-	font-family: 'Changa One', cursive;
-	margin-top: 7%;
-
+.title {
+	margin-top: 75px;
 }
 
 .fa-headphones{
@@ -69,6 +65,22 @@ body{
 .instructions{
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
+	margin-bottom: 15px;
+}
+
+#query {
+	height: 34px;
+	min-width: 300px;
+}
+
+.btn btn-warning {
+	height: 35px;
+}
+ 
+h4 {
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 40px;
 }
 
 li{
@@ -81,6 +93,7 @@ li{
 }
 
 .picture{
+	overflow: hidden;
 	height: 150px;
 	width: 150px;
 }
@@ -88,6 +101,10 @@ li{
 .link{
 	font-family: 'Comfortaa', cursive;
 	font-size:16px;
+}
+
+.artistContainer {
+	margin: 33px;
 }
 
 .result{
